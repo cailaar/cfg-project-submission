@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!---------NAV BAR---------->
+    <nav>
+        <ul>
+          <li><a href="#">Welcome</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-arrow">Menu</a>
+            <ul class="dropdown-content">
+              <li><a href="#">Food</a></li>
+              <li><a href="#">Drinks</a></li>
+              <li><a href="#">Dessert</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-arrow">Contact</a>
+            <ul class="dropdown-content">
+                <li><a href="#">Reserve now</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </ul>
+      </nav>
+        <!--------- END OF NAV BAR---------->
+    </header>
+         <!---------SLIDESHOW---------->
+    <main>
+       <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="/assets/AdobeStock_220713236.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="/assets/AdobeStock_201105105.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="/assets/AdobeStock_108139663.jpeg" style="width:100%">
+        </div>
+        <a class="prev" onclick="decreaseSlide()">&#10094;</a>
+        <a class="next" onclick="increaseSlide()">&#10095;</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot" onclick="displaySlide(0)"></span>
+        <span class="dot" onclick="displaySlide(1)"></span>
+        <span class="dot" onclick="displaySlide(2)"></span>
+      </div>
+    </main>
+        <!--------- END OF SLIDESHOW---------->
+        
+        <!--------- OUR STORY---------->
+
+    <section class="story-container">
+        <h2>Our Story</h2>
+        <p>Lorem ipsum dolor sit amet. Est suscipit tempora ut dolorum neque aut perferendis voluptate ab praesentium quia. Est atque error non galisum voluptates non omnis harum et quos distinctio aut nostrum quaerat.</p>
+        <p>Et dolores aspernatur et dolore velit hic aperiam sunt nam harum laudantium. Sed amet blanditiis non repellendus consequatur qui omnis consequatur et dolor quisquam qui nostrum internos est aspernatur minus et voluptatum iusto. Ut minima impedit ex quia esse aut placeat exercitationem quo voluptatum repudiandae non libero illo eos temporibus asperiores?</p>
+    </section>
+        <!--------- END OF OUR STORY---------->
+        <!--------- RESERVE IMAGE ---------->
+    <section>
+        <div class="reserve-container">
+            <img src="/assets/AdobeStock_237679901.jpeg" class="reserve-img" style="width:100%" alt= "group of people eating together">
+            <button class="reserve-btn">Reserve now</button>
+        </div>
+    </section>
+        <!---------END OF RESERVE IMAGE---------->
+        <!---------                    ---------->
+    <section class="ingredients-container">
+        <h2>Our Ingredients</h2>
+        <div class="inline-block">
+        <img src="/assets/olive-oil-968657__480.jpeg" style="width:30%" style="height:30%"alt="">
+        </div>
+        <div class="inline-block">
+        <img src="/assets/AdobeStock_201993910.jpeg" style="width:30%" style="height:30%" alt="">
+        </div>
+        <div class="inline-block">
+        <img src="/assets/AdobeStock_248540431.jpeg" style="width:30%" style="height:30%" alt="">
+        </div>
+        <p>Lorem ipsum dolor sit amet. Est suscipit tempora ut dolorum neque aut perferendis voluptate ab praesentium quia. Est atque error non galisum voluptates non omnis harum et quos distinctio aut nostrum quaerat.</p>
+        <p>Et dolores aspernatur et dolore velit hic aperiam sunt nam harum laudantium. Sed amet blanditiis non repellendus consequatur qui omnis consequatur et dolor quisquam qui nostrum internos est aspernatur minus et voluptatum iusto. Ut minima impedit ex quia esse aut placeat exercitationem quo voluptatum repudiandae non libero illo eos temporibus asperiores?</p>
+        <button class="menu-btn">Browse our menu</button>
+    </section>
+       <!---------                    ---------->
+       <!---------                    ---------->
+    <section class="review-container">
+      <figure>
+      <p>Et dolores aspernatur et dolore velit hic aperiam sunt nam harum laudantium. Sed amet blanditiis non repellendus consequatur qui omnis consequatur et dolor quisquam qui nostrum internos est aspernatur minus et voluptatum iusto. Ut minima impedit ex quia esse aut placeat exercitationem quo voluptatum repudiandae non libero illo eos temporibus asperiores! </p>
+      <figcaption>—Foodie Magazine</figcaption> 
+    </figure>
+    </section>
+      <!---------                    ---------->
+
+
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
