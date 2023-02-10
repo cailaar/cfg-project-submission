@@ -38,7 +38,12 @@ function showSlides() {
   }
   slides[slideIndex].style.display = "block";  
   dots[slideIndex].className += " active";
-  myTimeout = setTimeout(showSlides, 5000); // Change image every 5 seconds
+  myTimeout = setTimeout(showSlides, 5000); 
 }
 
 
+//form 
+function redirect() {
+  window.location.href = "form-submission.html";
+  return false;
+}

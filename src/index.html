@@ -6,26 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pink Restaurant</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/c6244a966e.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c6244a966e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <!---------NAV BAR---------->
     <nav>
         <ul>
-          <li><a href="#">Welcome</a></li>
+          <li><a href="index.html">Welcome</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-arrow">Menu</a>
             <ul class="dropdown-content">
-              <li><a href="#">Food</a></li>
-              <li><a href="#">Drinks</a></li>
-              <li><a href="#">Dessert</a></li>
+              <li><a href="food-menu.html">Food</a></li>
+              <li><a href="drink-menu.html">Drinks</a></li>
             </ul>
           </li>
           <li class="dropdown contact">
             <a href="#" class="dropdown-arrow">Contact</a>
             <ul class="dropdown-content">
-                <li><a href="#">Reserve now</a></li>
-                <li><a href="#">FAQ</a></li>
+                <li><a href="contact.html">Reserve</a></li>
+                <li><a href="faq.html">FAQ</a></li>
             </ul>
         </ul>
       </nav>
@@ -68,11 +69,11 @@
     <section>
         <div class="reserve-container">
             <img src="/assets/AdobeStock_237679901.jpeg" class="reserve-img" style="width:100%"  alt= "group of people eating together">
-            <button class="reserve-btn">Reserve now</button>
+            <button class="reserve-btn" onclick="window.location.href = 'contact.html';">Reserve now</button>
         </div>
     </section>
         <!---------END OF RESERVE IMAGE---------->
-        <!---------                    ---------->
+        <!--------- OUR INGREDIENTS---------->
     <section class="ingredients-container">
         <h2>Our Ingredients</h2>
         <div class="inline">
@@ -82,24 +83,43 @@
         </div>
         <p>Lorem ipsum dolor sit amet. Est suscipit tempora ut dolorum neque aut perferendis voluptate ab praesentium quia. Est atque error non galisum voluptates non omnis harum et quos distinctio aut nostrum quaerat.</p>
         <p>Et dolores aspernatur et dolore velit hic aperiam sunt nam harum laudantium. Sed amet blanditiis non repellendus consequatur qui omnis consequatur et dolor quisquam qui nostrum internos est aspernatur minus et voluptatum iusto. Ut minima impedit ex quia esse aut placeat exercitationem quo voluptatum repudiandae non libero illo eos temporibus asperiores?</p>
-        <button class="menu-btn">Browse our menu</button>
+        <button class="menu-btn" onclick="window.location.href = 'food-menu.html';">Browse our menu</button>
     </section>
-       <!---------                    ---------->
-       <!---------                    ---------->
+       <!---------END OF OUR INGREDIENTS---------->
+       <!--------- REVIEW ---------->
     <section class="review-container">
       <figure>
       <p>Et dolores aspernatur et dolore velit hic aperiam sunt nam harum laudantium. Sed amet blanditiis non repellendus consequatur qui omnis consequatur et dolor quisquam qui nostrum internos est aspernatur minus et voluptatum iusto. Ut minima impedit ex quia esse aut placeat exercitationem quo voluptatum repudiandae non libero illo eos temporibus asperiores! </p>
       <figcaption>—Foodie Magazine</figcaption> 
     </figure>
     </section>
-      <!---------                    ---------->
-
-
-    <footer>
-      <div class="footer">
-        <p>Footer</p>
-      </div>
-    </footer>
+      <!--------END OF REVIEW---------->
+      <!--------FOOTER---------->
+      <footer>
+        <div class="footer-content">
+          <div class="footer-left">
+            <h3>Location & Hours</h3>
+            <p>1234 Park Avenue, London UK NW12 6XI</p>
+            <p>Open: Monday-Friday 4pm-11pm</p>
+            <p>Saturday 5pm-1am</p>
+          </div>
+          <div class="footer-right">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter-square"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <p class="copyright">Copyright &copy; 2023 Pink Restaurant</p>
+      </footer>
     <script src="script.js"></script>
 </body>
 </html>
